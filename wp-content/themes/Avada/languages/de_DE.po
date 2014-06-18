@@ -1,0 +1,2605 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Avada v2.1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-21 08:50+0100\n"
+"PO-Revision-Date: 2014-04-21 08:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# @ Avada
+#: ../404.php:8
+msgid "Oops, This Page Could Not Be Found!"
+msgstr "Ohje, diese Seite wurde nicht gefunden!"
+
+# @ Avada
+#: ../404.php:15 ../search.php:249
+msgid "Here are some useful links:"
+msgstr "Hier finden Sie ein paar nützliche Links:"
+
+# @ Avada
+#: ../404.php:26
+msgid "Search Our Website"
+msgstr "Durchsuchen Sie unsere Webseite"
+
+# @ Avada
+#: ../404.php:27
+msgid "Can't find what you need? Take a moment and do a search below!"
+msgstr "Nichts passendes gefunden? Benutzen Sie doch unsere Suchfunktion!"
+
+# @ Avada
+#: ../404.php:32 ../search.php:39 ../searchform.php:3
+msgid "Search ..."
+msgstr "Suchen ..."
+
+# @ default
+#: ../admin/classes/class.options_machine.php:545
+msgid "Last Backup : "
+msgstr "Letztes Backup: "
+
+# @ default
+#: ../admin/front-end/options.php:49 ../admin/front-end/options.php:73
+msgid "Save All Changes"
+msgstr "Änderungen speichern"
+
+# @ default
+#: ../admin/front-end/options.php:74
+msgid "Options Reset"
+msgstr "Einstellungen zurücksetzen"
+
+# @ Avada
+#: ../archive-wpfc_sermon.php:41 ../archive.php:163 ../archive.php:165
+#: ../archive.php:194 ../author.php:248 ../author.php:250 ../author.php:282
+#: ../index.php:156 ../index.php:158 ../index.php:187 ../search.php:179
+#: ../search.php:181 ../search.php:219 ../single-avada_portfolio.php:312
+#: ../single-wpfc_sermon.php:204 ../single.php:207
+msgid "By"
+msgstr "von"
+
+# @ wooslider
+#: ../archive-wpfc_sermon.php:41 ../archive.php:165 ../archive.php:194
+#: ../author.php:250 ../author.php:282 ../index.php:158 ../index.php:187
+#: ../single.php:207
+msgid "Categories:"
+msgstr "Kategorien"
+
+# @ Avada
+#: ../archive-wpfc_sermon.php:41 ../archive.php:165 ../archive.php:194
+#: ../author.php:250 ../author.php:282 ../index.php:158 ../index.php:187
+#: ../search.php:181 ../search.php:219 ../single-wpfc_sermon.php:204
+#: ../single.php:207
+msgid "0 Comments"
+msgstr "0 Kommentare"
+
+# @ Avada
+#: ../archive-wpfc_sermon.php:41 ../archive.php:165 ../archive.php:194
+#: ../author.php:250 ../author.php:282 ../index.php:158 ../index.php:187
+#: ../search.php:181 ../search.php:219 ../single-wpfc_sermon.php:204
+#: ../single.php:207
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+# @ Avada
+#: ../archive-wpfc_sermon.php:41 ../archive.php:165 ../archive.php:194
+#: ../author.php:250 ../author.php:282 ../comments.php:18 ../index.php:158
+#: ../index.php:187 ../search.php:181 ../search.php:219
+#: ../single-wpfc_sermon.php:204 ../single.php:207
+msgid "Comments"
+msgstr "Kommentare"
+
+# @ Avada
+#: ../archive-wpfc_sermon.php:44 ../archive.php:185 ../archive.php:198
+#: ../author.php:273 ../author.php:286 ../index.php:178 ../index.php:191
+#: ../search.php:210 ../search.php:223
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: ../archive.php:189 ../author.php:277 ../index.php:182 ../search.php:214
+msgid "0"
+msgstr "0"
+
+#: ../archive.php:189 ../author.php:277 ../index.php:182 ../search.php:214
+msgid "1"
+msgstr "1"
+
+# if(empty($description)) {
+# $description  = __("This author has not yet filled in any details.",'Avada');
+# $description .= '</br>'.sprintf( __( 'So far %s has created %s entries.' ), $name, count_user_posts( $author_id ) );
+#: ../author.php:38
+msgid "This author has not yet filled in any details."
+msgstr "Keine "
+
+#: ../author.php:39
+#, php-format
+msgid "So far %s has created %s entries."
+msgstr ""
+
+# <div class="author_description">
+# <h3 class='author_title'><?php echo __("About",'Avada').' '.$name; ?>
+# <?php if(current_user_can('edit_users') || get_current_user_id() == $author_id): ?>
+#: ../author.php:48
+msgid "About"
+msgstr "Über"
+
+#: ../author.php:50
+msgid "Edit profile"
+msgstr "Profil bearbeiten"
+
+# @ Avada
+#: ../bbpress/content-search.php:14 ../search.php:34
+msgid "Need a new search?"
+msgstr "Neue Suche benötigt?"
+
+# <h2><?php echo __('Need a new search?', 'Avada'); ?></h2>
+# <p><?php echo __('If you didn\'t find what you were looking for, try a new search!', 'Avada'); ?></p>
+# <form class="seach-form" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
+#: ../bbpress/content-search.php:15 ../search.php:35
+msgid "If you didn't find what you were looking for, try a new search!"
+msgstr ""
+"Wenn Sie keine passenden Treffer gefunden haben, versuchen Sie eine neue "
+"Suche!"
+
+# @ Avada
+#: ../bbpress/content-search.php:19 ../bbpress/form-search.php:14
+msgid "Search for:"
+msgstr "Suche nach:"
+
+# @ Avada
+#: ../bbpress/content-search.php:21 ../bbpress/form-search.php:17
+msgid "Search the Forum..."
+msgstr "Forum durchsuchen ..."
+
+#: ../bbpress/content-single-topic-lead.php:18
+#: ../bbpress/content-single-topic-lead.php:90
+msgid "Creator"
+msgstr ""
+
+#: ../bbpress/content-single-topic-lead.php:22
+#: ../bbpress/content-single-topic-lead.php:94 ../bbpress/loop-topics.php:19
+msgid "Topic"
+msgstr ""
+
+#: ../bbpress/form-reply-move.php:22
+#, php-format
+msgid "Move reply \"%s\""
+msgstr "Antwort verschieben \"%s\""
+
+#: ../bbpress/form-reply-move.php:27
+msgid ""
+"You can either make this reply a new topic with a new title, or merge it "
+"into an existing topic."
+msgstr ""
+
+#: ../bbpress/form-reply-move.php:31
+msgid ""
+"If you choose an existing topic, replies will be ordered by the time and "
+"date they were created."
+msgstr ""
+
+#: ../bbpress/form-reply-move.php:35
+msgid "Move Method"
+msgstr ""
+
+#: ../bbpress/form-reply-move.php:39 ../bbpress/form-topic-split.php:39
+#, php-format
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr ""
+
+#: ../bbpress/form-reply-move.php:40
+#, fuzzy, php-format
+msgid "Moved: %s"
+msgstr "%1$s bei %2$s"
+
+#: ../bbpress/form-reply-move.php:47 ../bbpress/form-topic-split.php:47
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: ../bbpress/form-reply-move.php:56 ../bbpress/form-topic-split.php:56
+#, fuzzy
+msgid "No other topics found!"
+msgstr "Gestartete Themen:"
+
+#: ../bbpress/form-reply-move.php:67 ../bbpress/form-topic-merge.php:88
+#: ../bbpress/form-topic-split.php:92
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr ""
+
+# @ Avada
+#: ../bbpress/form-reply-move.php:71 ../bbpress/form-reply.php:91
+#: ../bbpress/form-topic-merge.php:92 ../bbpress/form-topic-split.php:96
+#: ../bbpress/form-topic.php:161
+#, fuzzy
+msgid "Submit"
+msgstr "Absenden"
+
+#: ../bbpress/form-reply-move.php:84
+msgid "You do not have the permissions to edit this reply!"
+msgstr ""
+
+#: ../bbpress/form-reply-move.php:84
+msgid "You cannot edit this reply."
+msgstr ""
+
+#: ../bbpress/form-reply.php:27
+#, fuzzy, php-format
+msgid "Reply To: %s"
+msgstr "- Antworten"
+
+#: ../bbpress/form-reply.php:44 ../bbpress/form-topic.php:70
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+
+#
+# <?php bbp_topic_tag_list( bbp_get_topic_id(), array( 'before' => '<div class="bbp-topic-tags"><p>' . esc_html__( 'Tags:', 'Avada' ) . '&nbsp;', 'sep'    => ', ', 'after'  => '</p></div>' ) ); ?>
+#
+#: ../bbpress/form-reply.php:55 ../bbpress/form-topic.php:81
+msgid "Tags:"
+msgstr "Schlagworte:"
+
+#: ../bbpress/form-reply.php:70 ../bbpress/form-topic.php:142
+#, fuzzy
+msgid "Keep a log of this edit:"
+msgstr "Anmelden"
+
+#: ../bbpress/form-reply.php:74 ../bbpress/form-topic.php:146
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: ../bbpress/form-reply.php:109 ../bbpress/form-topic.php:178
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: ../bbpress/form-reply.php:113 ../bbpress/form-topic.php:182
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: ../bbpress/form-reply.php:142
+#, php-format
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: ../bbpress/form-reply.php:150 ../bbpress/form-topic.php:208
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: ../bbpress/form-reply.php:158
+msgid "You cannot reply to this topic."
+msgstr ""
+
+# @ Avada
+#: ../bbpress/form-reply.php:158
+#, fuzzy
+msgid "You must be logged in to reply to this topic."
+msgstr "Sie müssen %sangemeldet%s sein, um einen Kommentar zu hinterlassen."
+
+#: ../bbpress/form-topic-merge.php:22
+#, fuzzy, php-format
+msgid "Merge topic \"%s\""
+msgstr "%1$s bei %2$s"
+
+#: ../bbpress/form-topic-merge.php:27
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:28
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:32
+msgid ""
+"All replies within both topics will be merged chronologically. The order of "
+"the merged replies is based on the time and date they were posted. If the "
+"destination topic was created after this one, it's post date will be updated "
+"to second earlier than this one."
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:36
+msgid "Destination"
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:40
+msgid "Merge with this topic:"
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:49
+msgid "No topics were found to which the topic could be merged to!"
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:55
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:63 ../bbpress/form-topic-split.php:67
+msgid "Topic Extras"
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:70
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:75
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:80
+#, fuzzy
+msgid "Merge topic tags"
+msgstr "Schlagworte:"
+
+#: ../bbpress/form-topic-merge.php:105 ../bbpress/form-topic-split.php:109
+msgid "You do not have the permissions to edit this topic!"
+msgstr ""
+
+#: ../bbpress/form-topic-merge.php:105 ../bbpress/form-topic-split.php:109
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: ../bbpress/form-topic-split.php:22
+#, fuzzy, php-format
+msgid "Split topic \"%s\""
+msgstr "%1$s bei %2$s"
+
+#: ../bbpress/form-topic-split.php:27
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+
+#: ../bbpress/form-topic-split.php:31
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+
+#: ../bbpress/form-topic-split.php:35
+msgid "Split Method"
+msgstr ""
+
+#: ../bbpress/form-topic-split.php:40
+#, fuzzy, php-format
+msgid "Split: %s"
+msgstr "%1$s bei %2$s"
+
+#: ../bbpress/form-topic-split.php:74
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: ../bbpress/form-topic-split.php:79
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: ../bbpress/form-topic-split.php:84
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:18
+#, fuzzy, php-format
+msgid "Manage Tag: \"%s\""
+msgstr "%1$s bei %2$s"
+
+#: ../bbpress/form-topic-tag.php:22
+#, fuzzy
+msgid "Rename"
+msgstr "Benutzername"
+
+#: ../bbpress/form-topic-tag.php:25
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:29
+msgid ""
+"Changing the slug affects its permalink. Any links to the old slug will stop "
+"working."
+msgstr ""
+
+# $emailTo = $smof_data['email_address']; //Put your own email address here
+# $body = __('Name:', 'Avada')." $name \n\n";
+# $body .= __('Email:', 'Avada')." $email \n\n";
+# wpml-name: 4e140ba723a03baa6948340bf90e2ef6
+#: ../bbpress/form-topic-tag.php:35 ../contact.php:63
+msgid "Name:"
+msgstr "Name:"
+
+#: ../bbpress/form-topic-tag.php:40
+msgid "Slug:"
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:59
+msgid "Merge"
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:62
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:68
+msgid "Existing tag:"
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:73
+#, php-format
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:88
+msgid "Delete"
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:91
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:94
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:95
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: ../bbpress/form-topic-tag.php:101
+#, php-format
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
+"be undone."
+msgstr ""
+
+#: ../bbpress/form-topic.php:39
+#, php-format
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../bbpress/form-topic.php:41
+#, php-format
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../bbpress/form-topic.php:41
+#, fuzzy
+msgid "Create New Topic"
+msgstr "Neue Suche benötigt?"
+
+#: ../bbpress/form-topic.php:55
+#, php-format
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+#: ../bbpress/form-topic.php:94
+#, fuzzy
+msgid "Forum:"
+msgstr "Forum durchsuchen ..."
+
+#: ../bbpress/form-topic.php:97
+#, fuzzy
+msgid "(No Forum)"
+msgstr "Forum durchsuchen ..."
+
+# @ Avada
+# @ LayerSlider
+#: ../bbpress/form-topic.php:113
+#, fuzzy
+msgid "Topic Type:"
+msgstr "Typ"
+
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+#: ../bbpress/form-topic.php:125
+#, fuzzy
+msgid "Topic Status:"
+msgstr "Status"
+
+#: ../bbpress/form-topic.php:216
+msgid "You cannot create new topics."
+msgstr ""
+
+# @ Avada
+#: ../bbpress/form-topic.php:216
+#, fuzzy
+msgid "You must be logged in to create new topics."
+msgstr "Sie müssen %sangemeldet%s sein, um einen Kommentar zu hinterlassen."
+
+#
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+#: ../bbpress/loop-forums.php:19
+#, fuzzy
+msgid "Forum"
+msgstr "Forum durchsuchen ..."
+
+#: ../bbpress/loop-forums.php:20
+#, fuzzy
+msgid "Topics"
+msgstr "Gestartete Themen:"
+
+# @ Avada
+#: ../bbpress/loop-forums.php:21 ../bbpress/loop-replies.php:28
+#: ../bbpress/loop-topics.php:21
+#, fuzzy
+msgid "Replies"
+msgstr "Beiträge erstellt:"
+
+# @ Avada
+#: ../bbpress/loop-forums.php:21 ../bbpress/loop-topics.php:21
+#, fuzzy
+msgid "Posts"
+msgstr "Ähnliche Beiträge"
+
+#: ../bbpress/loop-forums.php:22 ../bbpress/loop-topics.php:22
+msgid "Freshness"
+msgstr ""
+
+#
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+#: ../bbpress/loop-search-forum.php:26
+#, fuzzy
+msgid "Forum: "
+msgstr "Forum durchsuchen ..."
+
+#: ../bbpress/loop-search-forum.php:30
+#, fuzzy, php-format
+msgid "Last updated %s"
+msgstr "Letztes Backup: "
+
+# @ Avada
+#: ../bbpress/loop-search-reply.php:22 ../bbpress/loop-search-topic.php:22
+#: ../bbpress/loop-single-reply.php:22
+#, fuzzy, php-format
+msgid "Post count: %s"
+msgstr "Post ANzahl:"
+
+#: ../bbpress/loop-search-reply.php:42
+#, fuzzy
+msgid "In reply to: "
+msgstr "- Antworten"
+
+#: ../bbpress/loop-search-topic.php:48
+msgid "Topic: "
+msgstr ""
+
+#: ../bbpress/loop-search-topic.php:53
+#, fuzzy
+msgid "in group forum "
+msgstr "Forum durchsuchen ..."
+
+#: ../bbpress/loop-search-topic.php:57
+#, fuzzy
+msgid "in forum "
+msgstr "Forum durchsuchen ..."
+
+#: ../bbpress/loop-single-reply.php:48
+#, fuzzy
+msgid "in reply to: "
+msgstr "- Antworten"
+
+#: ../bbpress/loop-single-topic.php:60
+#, fuzzy, php-format
+msgid "Started by: %1$s"
+msgstr "%1$s bei %2$s"
+
+#: ../bbpress/loop-single-topic.php:68
+#, fuzzy, php-format
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr "%1$s bei %2$s"
+
+#: ../bbpress/loop-topics.php:20
+msgid "Voices"
+msgstr ""
+
+#: ../bbpress/user-details.php:40 ../bbpress/user-profile.php:15
+#, fuzzy
+msgid "Profile"
+msgstr "Profil bearbeiten"
+
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+#: ../bbpress/user-details.php:46
+#, fuzzy
+msgid "Topics Started"
+msgstr "Gestartete Themen:"
+
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+# </div>
+#: ../bbpress/user-details.php:52
+#, fuzzy
+msgid "Replies Created"
+msgstr "Beiträge erstellt:"
+
+#: ../bbpress/user-details.php:63
+msgid "Favorites"
+msgstr ""
+
+# @ default
+# @ LayerSlider
+#: ../bbpress/user-details.php:73
+#, fuzzy
+msgid "Subscriptions"
+msgstr "Einstellungen"
+
+# @ Avada
+#: ../bbpress/user-details.php:80
+#, fuzzy
+msgid "Edit"
+msgstr "- Bearbeiten"
+
+#
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+#: ../bbpress/user-profile.php:24
+msgid "Forum Role:"
+msgstr "Funktion im Forum:"
+
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+#: ../bbpress/user-profile.php:25
+msgid "Topics Started:"
+msgstr "Gestartete Themen:"
+
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+# </div>
+#: ../bbpress/user-profile.php:26
+msgid "Replies Created:"
+msgstr "Beiträge erstellt:"
+
+# @ Avada
+#: ../comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Dieser Beitrag ist mit einem Passwort geschützt. Bitte geben Sie das "
+"Password ein, um die Kommentare zu sehen."
+
+# @ Avada
+#: ../comments.php:18
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+# @ Avada
+#: ../comments.php:18
+msgid "One Comment"
+msgstr "Ein Kommentar"
+
+# @ Avada
+#: ../comments.php:37
+msgid "Comments are closed."
+msgstr "Die Kommentarfunktion wurde geschlossen."
+
+# @ Avada
+#: ../comments.php:50 ../contact.php:119
+msgid "Name (required)"
+msgstr "Name (notwendig)"
+
+# @ Avada
+#: ../comments.php:52 ../contact.php:121
+msgid "Email (required)"
+msgstr "E-Mail (notwendig)"
+
+# @ Avada
+#: ../comments.php:54
+msgid "Website"
+msgstr "Webseite"
+
+# @ Avada
+#: ../comments.php:61 ../comments.php:62
+msgid "Leave A Comment"
+msgstr "Hinterlassen Sie einen Kommentar"
+
+# @ Avada
+#: ../comments.php:63
+#, php-format
+msgid "You must be %slogged in%s to post a comment."
+msgstr "Sie müssen %sangemeldet%s sein, um einen Kommentar zu hinterlassen."
+
+# @ Avada
+#: ../comments.php:64
+msgid "Logged in as"
+msgstr "Angemeldet als"
+
+# @ default
+#: ../comments.php:64
+msgid "Log out of this account"
+msgstr "Von diesem Account abmelden"
+
+# @ Avada
+#: ../comments.php:64
+msgid "Log out &raquo;"
+msgstr "Abmelden &raquo;"
+
+# @ Avada
+#: ../comments.php:67
+msgid "Comment..."
+msgstr "Kommentar..."
+
+# @ Avada
+#: ../comments.php:69
+msgid "Post Comment"
+msgstr "Kommentar senden"
+
+# @ Avada
+#: ../contact.php:64 ../framework/woo-config.php:1243
+#: ../widgets/contact_info.php:49
+msgid "Email:"
+msgstr "E-Mail:"
+
+# @ Avada
+#: ../contact.php:65
+msgid "Subject:"
+msgstr "Thema:"
+
+# @ Avada
+#: ../contact.php:66
+msgid "Comments:"
+msgstr "Kommentare:"
+
+# @ Avada
+#: ../contact.php:106
+msgid ""
+"Please check if you've filled all the fields with valid information. Thank "
+"you."
+msgstr ""
+"Bitte überprüfen Sie, ob Sie alle Felder mit gültigen Informationen "
+"ausgefüllt haben. Vielen Dank!"
+
+# @ Avada
+#: ../contact.php:111
+msgid "Thank you"
+msgstr "Vielen Dank"
+
+# @ Avada
+#: ../contact.php:111
+msgid "for using my contact form! Your email was successfully sent!"
+msgstr ""
+"daß Sie unser Kontaktformular genutzt haben. Ihre E-Mail wurde erfolgreich "
+"verschickt!"
+
+# @ Avada
+#: ../contact.php:123
+msgid "Subject"
+msgstr "Thema"
+
+# @ Avada
+#: ../contact.php:129
+msgid "Message"
+msgstr "Nachricht"
+
+# @ Avada
+#: ../contact.php:145
+msgid "Submit Form"
+msgstr "Absenden"
+
+# @ Avada
+# @ wooslider
+#: ../faqs.php:39 ../portfolio-four-column-text.php:100
+#: ../portfolio-four-column.php:100 ../portfolio-grid.php:125
+#: ../portfolio-one-column-text.php:100 ../portfolio-one-column.php:100
+#: ../portfolio-three-column-text.php:102 ../portfolio-three-column.php:100
+#: ../portfolio-two-column-text.php:100 ../portfolio-two-column.php:102
+msgid "All"
+msgstr "Alle"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:164 ../functions.php:1067
+msgid "Install Required Plugins"
+msgstr "Die benötigten Plugins installieren"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:165 ../functions.php:1068
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:166 ../functions.php:1069
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installation des Plugins: %s"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr "Etwas ist schief gelaufen."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:180
+#: ../framework/class-tgm-plugin-activation.php:510 ../functions.php:1081
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur Installation der benötigten Plugins"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:181
+#: ../framework/class-tgm-plugin-activation.php:1920 ../functions.php:1082
+msgid "Plugin activated successfully."
+msgstr "Das Plugin wurde erfolgreich aktiviert."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:182
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins wurden erfolgreich installiert und aktiviert. %1$s"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:537
+#: ../framework/class-tgm-plugin-activation.php:2132
+msgid "Return to the Dashboard"
+msgstr "Zurück zur Übersicht"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:565
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr "Das folgende Plugin wurde erfolgreich aktiviert: %s."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:750
+msgid "Dismiss this notice"
+msgstr "Diese Nachricht ausblenden."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1137
+msgid "External Link"
+msgstr "Externer Link"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1142
+msgid "Private Repository"
+msgstr "Privates Archiv"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1145
+msgid "Pre-Packaged"
+msgstr "Vorgepackt"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1149
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1152
+msgid "Required"
+msgstr "Benötigt"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1152
+msgid "Recommended"
+msgstr "Empfohlen"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1155
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1157
+msgid "Installed But Not Activated"
+msgstr "Installiert aber nicht aktiviert"
+
+# elseif ( version_compare( $installed_plugins[$plugin['file_path']]['Version'], $plugin['version'], '<' ) )
+# $table_data[$i]['status'] = sprintf( '%1$s', __( 'Not Updated', THEMENAME ) );
+# else
+#: ../framework/class-tgm-plugin-activation.php:1159
+msgid "Not Updated"
+msgstr ""
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1161
+msgid "Active"
+msgstr "Aktiv"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1355
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Es müssen keine Plugins installiert oder aktiviert werden. <a href=\"%1$s\" "
+"title=\"Zurück zur Übersicht\">Zurück zur Übersicht</a>"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1371
+msgid "Plugin"
+msgstr "Plugin"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1372
+msgid "Source"
+msgstr "Quelle"
+
+# @ Avada
+# @ LayerSlider
+#: ../framework/class-tgm-plugin-activation.php:1373
+msgid "Type"
+msgstr "Typ"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1374
+msgid "Status"
+msgstr "Status"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1392
+msgid "Install"
+msgstr "Installieren"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1393
+msgid "Activate"
+msgstr "Aktivieren"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1903
+msgid "Install package not available."
+msgstr "Installationspaket ist nicht verfügbar."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1904
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Herunterladen des Installationspaketes von <span class=\"code\">%s</"
+"span>&#8230;"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1905
+msgid "Unpacking the package&#8230;"
+msgstr "Auspacken des Paketes&#8230;"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1906
+msgid "Installing the plugin&#8230;"
+msgstr "Installieren des Plugins&#8230;"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1907
+msgid "Plugin install failed."
+msgstr "Plugin Installation ist fehlgeschlagen."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1908
+msgid "Plugin installed successfully."
+msgstr "Plugin erfolgreich installiert."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:1919
+msgid "Plugin activation failed."
+msgstr "Plugin Aktivierung fehlgeschlagen."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2029
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Der Installations- und Aktivierungsprozess wird gestartet. Dieser Prozess "
+"kann auf manchen Servern etwas Zeit in Anspruch nehmen. Bitte haben Sie "
+"Geduld."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2030
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s erfolgreich installiert und aktiviert."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2030
+#: ../framework/class-tgm-plugin-activation.php:2039
+msgid "Show Details"
+msgstr "Details anzeigen"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2030
+#: ../framework/class-tgm-plugin-activation.php:2039
+msgid "Hide Details"
+msgstr "Details verbergen"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2031
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen wurden fertiggestellt."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2032
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation und Aktivierung des Plugins %1$s (%2$d/%3$d)"
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2036
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Der Installationsprozess wird gestartet. Dieser Prozess kann auf manchen "
+"Servern etwas Zeit in Anspruch nehmen. Bitte haben Sie Geduld."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2037
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Während der Installation von %1$s: <strong>%2$s</strong> ist ein Fehler "
+"passiert."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2038
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2039
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s wurde erfolgreich installiert."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2040
+msgid "All installations have been completed."
+msgstr "Die komplette Installation wurde fertiggestellt."
+
+# @ Avada
+#: ../framework/class-tgm-plugin-activation.php:2041
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation des Plugin %1$s (%2$d/%3$d)"
+
+#: ../framework/class-updater.php:87
+#, fuzzy
+msgid "There is an update available for the "
+msgstr "Installationspaket ist nicht verfügbar."
+
+# @ Avada
+# @ wooslider
+#: ../framework/custom_functions.php:114 ../framework/custom_functions.php:372
+#: ../framework/custom_functions.php:392 ../framework/custom_functions.php:409
+#: ../single-avada_portfolio.php:66 ../single-avada_portfolio.php:68
+#: ../single-avada_portfolio.php:80 ../single-wpfc_sermon.php:29
+#: ../single.php:35
+msgid "Previous"
+msgstr "Zurück"
+
+# @ Avada
+# @ wooslider
+#: ../framework/custom_functions.php:124 ../framework/custom_functions.php:373
+#: ../framework/custom_functions.php:393 ../framework/custom_functions.php:410
+#: ../single-avada_portfolio.php:84 ../single-avada_portfolio.php:86
+#: ../single-avada_portfolio.php:98 ../single-wpfc_sermon.php:30
+#: ../single.php:36
+msgid "Next"
+msgstr "Vor"
+
+# @ Avada
+#: ../framework/custom_functions.php:150 ../framework/custom_functions.php:834
+msgid "Home"
+msgstr "Startseite"
+
+# @ Avada
+#: ../framework/custom_functions.php:220
+msgid "404 - Page not Found"
+msgstr "404 - Seite nicht gefunden"
+
+# @ Avada
+#: ../framework/custom_functions.php:221
+msgid "Search"
+msgstr "Suche"
+
+# @ Avada
+#: ../framework/custom_functions.php:867
+msgid "Search results for:"
+msgstr "Suchergebnisse für:"
+
+# @ Avada
+#: ../framework/custom_functions.php:871
+msgid "Error 404 Page"
+msgstr "404 Fehlerseite"
+
+# @ Avada
+#: ../framework/custom_functions.php:876
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archiv für den Tag: %s"
+
+# @ Avada
+#: ../framework/custom_functions.php:878
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archiv für den Monat: %s"
+
+# @ Avada
+#: ../framework/custom_functions.php:880
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archiv für das Jahr: %s"
+
+#: ../framework/headers/header-main-menu.php:17
+#: ../framework/headers/header-menu.php:12
+#: ../framework/headers/sticky-header.php:43
+#: ../woocommerce/checkout/thankyou.php:32
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: ../framework/headers/header-main-menu.php:22
+#: ../framework/headers/header-menu.php:17
+#: ../framework/headers/sticky-header.php:48
+msgid "Username"
+msgstr "Benutzername"
+
+#: ../framework/headers/header-main-menu.php:25
+#: ../framework/headers/header-menu.php:20
+#: ../framework/headers/sticky-header.php:51
+msgid "Password"
+msgstr "Passwort"
+
+#: ../framework/headers/header-main-menu.php:28
+#: ../framework/headers/header-menu.php:23
+#: ../framework/headers/sticky-header.php:54
+msgid "Remember Me"
+msgstr "Eingeloggt bleiben"
+
+# <p class="submit">
+# <input type="submit" name="wp-submit" id="wp-submit" class="button small default comment-submit" value="<?php _e('Log In', 'Avada'); ?>">
+# <input type="hidden" name="redirect_to" value="<?php echo $_SERVER['HTTP_REFERER']; ?>">
+#: ../framework/headers/header-main-menu.php:31
+#: ../framework/headers/header-menu.php:26
+#: ../framework/headers/sticky-header.php:57
+msgid "Log In"
+msgstr "Anmelden"
+
+#: ../framework/headers/header-main-menu.php:40
+#: ../framework/headers/header-menu.php:35
+#: ../framework/headers/sticky-header.php:66
+msgid "Logout"
+msgstr "Abmelden"
+
+# @ Avada
+#: ../framework/headers/header-main-menu.php:65
+#: ../framework/headers/header-menu.php:61
+#: ../framework/headers/sticky-header.php:90 ../framework/woo-config.php:485
+#: ../framework/woo-config.php:515 ../framework/woo-config.php:1037
+#: ../woocommerce/checkout/form-checkout.php:35
+msgid "View Cart"
+msgstr "Einkaufswagen ansehen"
+
+#: ../framework/headers/header-main-menu.php:66
+#: ../framework/headers/header-menu.php:62
+#: ../framework/headers/sticky-header.php:91 ../framework/woo-config.php:486
+#: ../framework/woo-config.php:516
+msgid "Checkout"
+msgstr "Zur Kasse gehen"
+
+#: ../framework/headers/header-menu.php:44 ../framework/woo-config.php:468
+msgid "Cart"
+msgstr "Einkaufswagen"
+
+#: ../framework/headers/header-menu.php:46 ../framework/woo-config.php:470
+msgid "Item(s)"
+msgstr "Artikel"
+
+#: ../framework/mega-menus.php:517
+#, fuzzy, php-format
+msgid "%s (Invalid)"
+msgstr "%1$s bei %2$s"
+
+#: ../framework/mega-menus.php:521
+#, fuzzy, php-format
+msgid "%s (Pending)"
+msgstr "%1$s bei %2$s"
+
+#: ../framework/mega-menus.php:534
+#, fuzzy
+msgid "sub item"
+msgstr "Artikel"
+
+#: ../framework/mega-menus.php:566
+#, fuzzy
+msgid "Edit Menu Item"
+msgstr "Artikel"
+
+#: ../framework/mega-menus.php:575
+#, fuzzy
+msgid "URL"
+msgstr "Projekt ansehen"
+
+#: ../framework/mega-menus.php:582
+msgid "Navigation Label"
+msgstr ""
+
+#: ../framework/mega-menus.php:588
+msgid "Title Attribute"
+msgstr ""
+
+#: ../framework/mega-menus.php:595
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../framework/mega-menus.php:600
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../framework/mega-menus.php:606
+#, fuzzy
+msgid "Link Relationship (XFN)"
+msgstr "Externer Link"
+
+#: ../framework/mega-menus.php:612
+#, fuzzy
+msgid "Description"
+msgstr "Projekt Beschreibung"
+
+#: ../framework/mega-menus.php:614
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../framework/mega-menus.php:622
+msgid "Enable Fusion Mega Menu"
+msgstr ""
+
+#: ../framework/mega-menus.php:628
+msgid "Full Width Mega Menu"
+msgstr ""
+
+#: ../framework/mega-menus.php:633
+msgid "Mega Menu Number of Columns"
+msgstr ""
+
+#: ../framework/mega-menus.php:635
+msgid "Auto"
+msgstr ""
+
+#: ../framework/mega-menus.php:646
+msgid "Disable Mega Menu Column Title"
+msgstr ""
+
+#: ../framework/mega-menus.php:651
+msgid "Mega Menu Widget Area"
+msgstr ""
+
+#: ../framework/mega-menus.php:653
+msgid "Select Widget Area"
+msgstr ""
+
+#: ../framework/mega-menus.php:665
+msgid "Mega Menu Icon (use full font awesome name)"
+msgstr ""
+
+#: ../framework/mega-menus.php:669
+msgid "Set Thumbnail"
+msgstr ""
+
+#: ../framework/mega-menus.php:680
+msgid "Move"
+msgstr ""
+
+#: ../framework/mega-menus.php:681
+#, fuzzy
+msgid "Up one"
+msgstr "Ein Kommentar"
+
+#: ../framework/mega-menus.php:682
+#, fuzzy
+msgid "Down one"
+msgstr "Ein Kommentar"
+
+#: ../framework/mega-menus.php:685
+msgid "To the top"
+msgstr ""
+
+#: ../framework/mega-menus.php:692
+#, fuzzy, php-format
+msgid "Original: %s"
+msgstr "%1$s bei %2$s"
+
+#: ../framework/mega-menus.php:705
+msgid "Remove"
+msgstr ""
+
+#: ../framework/mega-menus.php:706
+msgid "Cancel"
+msgstr ""
+
+#: ../framework/plugins/importer/parsers.php:42
+#: ../framework/plugins/importer/parsers.php:72
+#: ../framework/plugins/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../framework/plugins/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../framework/plugins/importer/parsers.php:84
+#: ../framework/plugins/importer/parsers.php:89
+#: ../framework/plugins/importer/parsers.php:279
+#: ../framework/plugins/importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:134
+#: ../framework/plugins/importer/wordpress-importer.php:143
+#: ../framework/plugins/importer/wordpress-importer.php:194
+#: ../framework/plugins/importer/wordpress-importer.php:198
+#: ../framework/plugins/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:178
+#, fuzzy
+msgid "All done."
+msgstr "Alle"
+
+#: ../framework/plugins/importer/wordpress-importer.php:178
+#, fuzzy
+msgid "Have fun!"
+msgstr "Haben Sie einen Gutscheincode?"
+
+#: ../framework/plugins/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:299
+#, fuzzy
+msgid "Import author:"
+msgstr "Über den Autor:"
+
+#: ../framework/plugins/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+# @ Avada
+#: ../framework/plugins/importer/wordpress-importer.php:313
+#, fuzzy
+msgid "as a new user:"
+msgstr "Neue Suche benötigt?"
+
+#: ../framework/plugins/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:425
+#, fuzzy, php-format
+msgid "Failed to import category %s"
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#: ../framework/plugins/importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:511
+#: ../framework/plugins/importer/wordpress-importer.php:652
+#, fuzzy, php-format
+msgid "Failed to import %s %s"
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#: ../framework/plugins/importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:866
+#, fuzzy
+msgid "Invalid file type"
+msgstr "Typ"
+
+#: ../framework/plugins/importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:1033
+#, fuzzy
+msgid "Import WordPress"
+msgstr "WordPress Repository"
+
+#: ../framework/plugins/importer/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../framework/plugins/importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+# @ Avada
+# @ wooslider
+#: ../framework/plugins/post-link-plus.php:301
+#, fuzzy
+msgid "Previous Post"
+msgstr "Zurück"
+
+# @ Avada
+#: ../framework/plugins/post-link-plus.php:301
+#, fuzzy
+msgid "Next Post"
+msgstr "Vor"
+
+# @ Avada
+#: ../framework/woo-config.php:199
+msgid "Show details"
+msgstr "Details anzeigen"
+
+# @ Avada
+#: ../framework/woo-config.php:219
+#, fuzzy
+msgid "Search..."
+msgstr "Suchen ..."
+
+# $html .= '<li>';
+# $html .= '<span class="current-li"><a>'.__('Sort by', 'Avada').' <strong>'.__('Default Order', 'Avada').'</strong></a></span>';
+# $html .= '<ul>';
+#: ../framework/woo-config.php:260 ../framework/woo-config.php:262
+#: ../framework/woo-config.php:263 ../framework/woo-config.php:264
+#: ../framework/woo-config.php:265 ../framework/woo-config.php:266
+#: ../framework/woo-config.php:267
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+# @ Avada
+#: ../framework/woo-config.php:260 ../framework/woo-config.php:262
+msgid "Default Order"
+msgstr "Standardsortierung"
+
+# $html .= '<li class="'.(($pob == 'default') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'default').'">'.__('Sort by', 'Avada').' <strong>'.__('Default Order', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'name') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'name').'">'.__('Sort by', 'Avada').' <strong>'.__('Name', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+#: ../framework/woo-config.php:263
+msgid "Name"
+msgstr "Name"
+
+# $html .= '<li class="'.(($pob == 'name') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'name').'">'.__('Sort by', 'Avada').' <strong>'.__('Name', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+#: ../framework/woo-config.php:264 ../woocommerce/cart/cart.php:27
+msgid "Price"
+msgstr "Preis"
+
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'rating') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'rating').'">'.__('Sort by', 'Avada').' <strong>'.__('Rating', 'Avada').'</strong></a></li>';
+#: ../framework/woo-config.php:265
+msgid "Date"
+msgstr "Datum"
+
+# @ Avada
+#: ../framework/woo-config.php:266
+#, fuzzy
+msgid "Popularity"
+msgstr "Populär"
+
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'rating') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'rating').'">'.__('Sort by', 'Avada').' <strong>'.__('Rating', 'Avada').'</strong></a></li>';
+# $html .= '</ul>';
+#: ../framework/woo-config.php:267
+msgid "Rating"
+msgstr "Bewertung"
+
+# $html .= '<li>';
+# $html .= '<span class="current-li"><a>'.__('Show', 'Avada').' <strong>'.$per_page.' '.__(' Products', 'Avada').'</strong></a></span>';
+# $html .= '<ul>';
+#: ../framework/woo-config.php:286 ../framework/woo-config.php:288
+#: ../framework/woo-config.php:289 ../framework/woo-config.php:290
+msgid "Show"
+msgstr "Anzeigen"
+
+# @ Avada
+#: ../framework/woo-config.php:286
+msgid " Products"
+msgstr " Produkte"
+
+# @ Avada
+#: ../framework/woo-config.php:288 ../framework/woo-config.php:289
+#: ../framework/woo-config.php:290
+msgid "Products"
+msgstr "Produkte"
+
+# <i class="fontawesome-icon medium circle-yes icon-facebook"></i>
+# <span><?php echo __('Share On', 'Avada'); ?></span>Facebook
+# </a>
+#: ../framework/woo-config.php:546
+msgid "Share On"
+msgstr "Teiloen auf"
+
+# <i class="fontawesome-icon medium circle-yes icon-twitter"></i>
+# <span><?php echo __('Tweet This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+#: ../framework/woo-config.php:552
+msgid "Tweet This"
+msgstr "Twittern"
+
+#: ../framework/woo-config.php:552 ../framework/woo-config.php:559
+#: ../framework/woo-config.php:565 ../framework/woo-config.php:1146
+#: ../woocommerce/cart/cart.php:26 ../woocommerce/checkout/review-order.php:18
+msgid "Product"
+msgstr "Produkt"
+
+# <i class="fontawesome-icon medium circle-yes icon-pinterest"></i>
+# <span><?php echo __('Pin This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+#: ../framework/woo-config.php:559
+msgid "Pin This"
+msgstr "Pinnen"
+
+# <i class="fontawesome-icon medium circle-yes icon-envelope-alt"></i>
+# <span><?php echo __('Mail This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+#: ../framework/woo-config.php:565
+msgid "Mail This"
+msgstr "Weitermailen"
+
+#: ../framework/woo-config.php:601
+#, php-format
+msgid "You Have %d Items In Your Cart"
+msgstr "Sie haben %d Artikel in Ihrem Einkaufswagen"
+
+#: ../framework/woo-config.php:634
+#, fuzzy
+msgid "Calculate Shipping"
+msgstr "Versandadresse"
+
+#: ../framework/woo-config.php:640
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: ../framework/woo-config.php:657 ../framework/woo-config.php:663
+#: ../framework/woo-config.php:675
+msgid "State / county"
+msgstr ""
+
+#: ../framework/woo-config.php:664
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: ../framework/woo-config.php:684
+msgid "City"
+msgstr ""
+
+#: ../framework/woo-config.php:692
+msgid "Postcode / Zip"
+msgstr ""
+
+#: ../framework/woo-config.php:697
+msgid "Update Totals"
+msgstr ""
+
+#: ../framework/woo-config.php:721 ../framework/woo-config.php:784
+msgid "Have A Promotional Code?"
+msgstr "Haben Sie einen Gutscheincode?"
+
+#: ../framework/woo-config.php:723 ../framework/woo-config.php:788
+#, fuzzy
+msgid "Coupon code"
+msgstr "Haben Sie einen Gutscheincode?"
+
+#
+# <input name="coupon_code" class="input-text" id="coupon_code" value="" /> <input type="submit" class="button comment-submit small" name="apply_coupon" value="<?php _e( 'Apply', 'Avada' ); ?>" />
+#
+#: ../framework/woo-config.php:724
+msgid "Apply"
+msgstr "Verwenden"
+
+# @ Avada
+#: ../framework/woo-config.php:751
+#, fuzzy
+msgid "Update Cart"
+msgstr "Einkaufswagen"
+
+#: ../framework/woo-config.php:752
+#, fuzzy
+msgid "Proceed to Checkout"
+msgstr "Zur Kasse gehen"
+
+#: ../framework/woo-config.php:792
+#, fuzzy
+msgid "Apply Coupon"
+msgstr "Verwenden"
+
+#: ../framework/woo-config.php:812 ../framework/woo-config.php:1260
+#: ../woocommerce/myaccount/form-edit-address.php:14
+msgid "Billing Address"
+msgstr "Rechnungsadresse"
+
+#: ../framework/woo-config.php:818 ../framework/woo-config.php:1275
+#: ../woocommerce/myaccount/form-edit-address.php:14
+msgid "Shipping Address"
+msgstr "Versandadresse"
+
+#: ../framework/woo-config.php:827
+msgid "Additional Information"
+msgstr ""
+
+#: ../framework/woo-config.php:835
+msgid "Review &amp; Payment"
+msgstr "Übersicht %amp; Bezahlen"
+
+#: ../framework/woo-config.php:923 ../framework/woo-config.php:939
+msgid "Continue"
+msgstr "Weiter"
+
+#: ../framework/woo-config.php:1021
+#: ../woocommerce/checkout/form-checkout.php:19
+#, php-format
+msgid "Hello, %s:"
+msgstr "Hallo, %s:"
+
+# @ default
+#: ../framework/woo-config.php:1046
+#, fuzzy
+msgid "View Downloads"
+msgstr "Einkaufswagen ansehen"
+
+# @ Avada
+#: ../framework/woo-config.php:1062
+msgid "View Orders"
+msgstr "Bestellung ansehen"
+
+#: ../framework/woo-config.php:1068
+msgid "Change Address"
+msgstr "Adresse ändern"
+
+#: ../framework/woo-config.php:1073 ../framework/woo-config.php:1092
+#, fuzzy
+msgid "Edit Account"
+msgstr "- Bearbeiten"
+
+#: ../framework/woo-config.php:1096
+#, fuzzy
+msgid "First name"
+msgstr "Name:"
+
+#: ../framework/woo-config.php:1100
+#, fuzzy
+msgid "Last name"
+msgstr "Name:"
+
+#: ../framework/woo-config.php:1104
+#, fuzzy
+msgid "Email address"
+msgstr "Benutzername oder Emailadresse"
+
+#: ../framework/woo-config.php:1108
+msgid "Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../framework/woo-config.php:1112
+#, fuzzy
+msgid "Confirm new password"
+msgstr "Passwort"
+
+# @ default
+#: ../framework/woo-config.php:1117
+#, fuzzy
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+# @ Avada
+#: ../framework/woo-config.php:1142
+#, fuzzy
+msgid "Order Details"
+msgstr "Standardsortierung"
+
+#: ../framework/woo-config.php:1147 ../woocommerce/cart/cart.php:28
+#: ../woocommerce/checkout/review-order.php:112
+msgid "Quantity"
+msgstr ""
+
+#: ../framework/woo-config.php:1148 ../woocommerce/cart/cart.php:29
+#: ../woocommerce/checkout/review-order.php:19
+msgid "Total"
+msgstr ""
+
+#: ../framework/woo-config.php:1203
+#, fuzzy, php-format
+msgid "Download file%s"
+msgstr "%1$s bei %2$s"
+
+# @ Avada
+#: ../framework/woo-config.php:1239
+#, fuzzy
+msgid "Customer details"
+msgstr "Ich habe bereits ein Konto"
+
+# @ Avada
+#: ../framework/woo-config.php:1244
+#, fuzzy
+msgid "Telephone:"
+msgstr "Telefon:"
+
+#: ../framework/woo-config.php:1264 ../framework/woo-config.php:1279
+msgid "N/A"
+msgstr ""
+
+# @ Avada
+#: ../functions.php:234
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s bei %2$s"
+
+# @ Avada
+#: ../functions.php:234
+msgid " - Edit"
+msgstr "- Bearbeiten"
+
+# @ Avada
+#: ../functions.php:234
+msgid " - Reply"
+msgstr "- Antworten"
+
+# @ Avada
+#: ../functions.php:239
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar muss noch freigeschalten werden."
+
+# @ default
+#: ../functions.php:331
+msgid "Theme Options"
+msgstr "Theme Einstellungen"
+
+# wp_localize_script('avada', 'js_local_vars', array(
+# 'dropdown_goto' => __('Go to...', 'Avada')
+# )
+#: ../functions.php:620
+msgid "Go to..."
+msgstr "Navigation ..."
+
+# 'dropdown_goto' => __('Go to...', 'Avada'),
+# 'mobile_nav_cart' => __('Shopping Cart', 'Avada'),
+# 'page_smoothHeight' => $smoothHeight,
+# wpml-name: b75443a19207ed3a3552edda86536857
+#: ../functions.php:621
+msgid "Shopping Cart"
+msgstr "Einkaufswagen"
+
+#: ../functions.php:625
+#, fuzzy
+msgid "All posts displayed"
+msgstr "Ähnliche Beiträge"
+
+#: ../functions.php:626
+msgid "Loading the next set of posts..."
+msgstr ""
+
+#: ../functions.php:627
+msgid "Loading Portfolio Items..."
+msgstr ""
+
+#: ../functions.php:628
+msgid "Loading FAQ Items..."
+msgstr ""
+
+# @ Avada
+#: ../functions.php:629
+#, fuzzy
+msgid "Details"
+msgstr "Details anzeigen"
+
+#: ../functions.php:802 ../functions.php:809
+msgid ""
+"It seems you have <a href=\"http://wpmegamenu.com/\">Ubermenu</a> installed, "
+"please enable <a href=\""
+msgstr ""
+
+#: ../functions.php:815
+msgid "Sucessfully imported demo data!"
+msgstr ""
+
+# @ Avada
+#: ../functions.php:910
+#, fuzzy
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+"Dieser Beitrag ist mit einem Passwort geschützt. Bitte geben Sie das "
+"Password ein, um die Kommentare zu sehen."
+
+#: ../functions.php:911
+#, fuzzy
+msgid "Password:"
+msgstr "Passwort"
+
+# @ Avada
+#: ../functions.php:1070
+#, fuzzy
+msgid "Something went wrong with the plugin API."
+msgstr "Etwas ist schief gelaufen."
+
+# @ Avada
+#: ../functions.php:1083
+#, fuzzy, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Alle Plugins wurden erfolgreich installiert und aktiviert. %1$s"
+
+#: ../header.php:561
+msgid "Please enter correct details for this required field."
+msgstr ""
+
+# @ Avada
+#: ../portfolio-one-column-text.php:202 ../portfolio-one-column.php:203
+#: ../taxonomy-portfolio_category.php:157 ../taxonomy-portfolio_skills.php:158
+#: ../taxonomy-portfolio_tags.php:158
+msgid "Learn More"
+msgstr "Mehr darüber erfahren"
+
+# @ Avada
+#: ../portfolio-one-column-text.php:204 ../portfolio-one-column.php:205
+#: ../taxonomy-portfolio_category.php:159 ../taxonomy-portfolio_skills.php:160
+#: ../taxonomy-portfolio_tags.php:160
+msgid "View Project"
+msgstr "Projekt ansehen"
+
+#: ../search.php:242
+msgid "Couldn't find what you're looking for!"
+msgstr "Leider konnten wir nicht finden wonach Sie suchen."
+
+#: ../search.php:246
+msgid "Oops!"
+msgstr "Hoppla!"
+
+#: ../search.php:260
+msgid "Try again!"
+msgstr "Versuchen Siee es erneut!"
+
+#: ../search.php:261
+msgid "If you want to rephrase your query, here is your chance:"
+msgstr ""
+
+# <?php if(is_page($post_parent)): ?><?php endif; ?>
+# <li <?php if(is_page($post_parent)): ?>class="current_page_item"<?php endif; ?>><a href="<?php echo get_permalink($post_parent); ?>" title="<?php echo __('Back to Parent Page', 'Avada'); ?>"><?php echo get_the_title($post_parent); ?></a></li>
+# <?php
+# wpml-name: 13a1c246a6d1a5ae1a40f5260a99ac1e
+#: ../side-navigation.php:61
+msgid "Back to Parent Page"
+msgstr "Zurück zur übergeordneten Seite"
+
+#: ../single-avada_portfolio.php:267
+msgid "Project Description"
+msgstr "Projekt Beschreibung"
+
+# @ Avada
+#: ../single-avada_portfolio.php:273
+msgid "Project Details"
+msgstr "Details anzeigen"
+
+#: ../single-avada_portfolio.php:276
+msgid "Skills Needed"
+msgstr "Verwendete Technologien"
+
+# @ wooslider
+#: ../single-avada_portfolio.php:284
+msgid "Categories"
+msgstr "Kategorien"
+
+# @ wooslider
+#: ../single-avada_portfolio.php:292
+msgid "Tags"
+msgstr "Schlagwörter"
+
+# @ Avada
+#: ../single-avada_portfolio.php:300
+msgid "Project URL"
+msgstr "Projekt ansehen"
+
+#: ../single-avada_portfolio.php:306
+msgid "Copyright"
+msgstr "Copyright"
+
+# @ Avada
+#: ../single-avada_portfolio.php:326 ../single-wpfc_sermon.php:210
+#: ../single.php:217
+msgid "Share This Story, Choose Your Platform!"
+msgstr "Teilen Sie diese Nachricht - wählen Sie eine Platform aus!"
+
+# @ Avada
+#: ../single-avada_portfolio.php:435
+msgid "Related Projects"
+msgstr "Ähnliche Projekte"
+
+# @ Avada
+#: ../single-wpfc_sermon.php:313 ../single.php:322
+msgid "About the Author:"
+msgstr "Über den Autor:"
+
+# @ Avada
+#: ../single-wpfc_sermon.php:329 ../single.php:339
+msgid "Related Posts"
+msgstr "Ähnliche Beiträge"
+
+# @ Avada
+#: ../widgets/contact_info.php:37
+msgid "Phone:"
+msgstr "Telefon:"
+
+# <?php if($instance['mobile']): ?>
+# <p class="mobile"><?php _e('Mobile:', 'Avada'); ?> <?php echo $instance['mobile']; ?></p>
+# <?php endif; ?>
+#: ../widgets/contact_info.php:41
+msgid "Mobile:"
+msgstr ""
+
+# @ Avada
+#: ../widgets/contact_info.php:45
+msgid "Fax:"
+msgstr "Fax:"
+
+# @ Avada
+#: ../widgets/contact_info.php:53
+msgid "Web:"
+msgstr "Webseite:"
+
+# @ Avada
+#: ../widgets/tabs_widget.php:46
+msgid "Popular"
+msgstr "Beliebt"
+
+# @ Avada
+#: ../widgets/tabs_widget.php:49
+msgid "Recent"
+msgstr "Kürzlich"
+
+#: ../widgets/tabs_widget.php:132
+msgid "says"
+msgstr "sagt"
+
+#: ../woocommerce/cart/cart.php:70
+#, fuzzy
+msgid "Available on backorder"
+msgstr "Installationspaket ist nicht verfügbar."
+
+#: ../woocommerce/cart/cart.php:106
+#, fuzzy
+msgid "Remove this item"
+msgstr "Artikel"
+
+# @ Avada
+#: ../woocommerce/checkout/form-checkout.php:47
+#, fuzzy
+msgid "You must be logged in to checkout."
+msgstr "Sie müssen %sangemeldet%s sein, um einen Kommentar zu hinterlassen."
+
+#: ../woocommerce/checkout/form-checkout.php:78
+#, fuzzy
+msgid "Your order"
+msgstr "Standardsortierung"
+
+#: ../woocommerce/checkout/review-order.php:25
+#, fuzzy
+msgid "Cart Subtotal"
+msgstr "Einkaufswagen"
+
+#: ../woocommerce/checkout/review-order.php:31
+#: ../woocommerce/checkout/review-order.php:71
+msgid "Coupon:"
+msgstr ""
+
+# @ Avada
+#: ../woocommerce/checkout/review-order.php:79
+#, fuzzy
+msgid "Order Total"
+msgstr "Standardsortierung"
+
+#: ../woocommerce/checkout/review-order.php:166
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:168
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:177
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:177
+msgid "Update totals"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:184
+#, fuzzy
+msgid "Place order"
+msgstr "Standardsortierung"
+
+#: ../woocommerce/checkout/review-order.php:193
+msgid "I have read and accept the"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:193
+#, fuzzy
+msgid "terms &amp; conditions"
+msgstr "Übersicht %amp; Bezahlen"
+
+#: ../woocommerce/checkout/thankyou.php:20
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:26
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:30
+msgid "Pay"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:39
+#: ../woocommerce/checkout/thankyou.php:75
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+# @ Avada
+#: ../woocommerce/checkout/thankyou.php:43
+#, fuzzy
+msgid "Order:"
+msgstr "Standardsortierung"
+
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'rating') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'rating').'">'.__('Sort by', 'Avada').' <strong>'.__('Rating', 'Avada').'</strong></a></li>';
+#: ../woocommerce/checkout/thankyou.php:47
+#, fuzzy
+msgid "Date:"
+msgstr "Datum"
+
+#: ../woocommerce/checkout/thankyou.php:51
+msgid "Total:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:56
+#, fuzzy
+msgid "Payment method:"
+msgstr "Übersicht %amp; Bezahlen"
+
+#: ../woocommerce/myaccount/form-edit-address.php:25
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:30
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:61
+#, fuzzy
+msgid "Save Address"
+msgstr "Änderungen speichern"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:25
+msgid "Choose an option"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:85
+msgid "Clear selection"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:116
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../woocommerce/single-product/tabs/description.php:14
+#, fuzzy
+msgid "Product Description"
+msgstr "Produkt"
+
+# @ Avada
+#, fuzzy
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert: %s."
+#~ msgstr[1] "Das folgende Plugin wurde erfolgreich aktiviert: %s."
+
+# @ Avada
+#, fuzzy
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert: %s."
+#~ msgstr[1] "Das folgende Plugin wurde erfolgreich aktiviert: %s."
+
+# @ Avada
+#, fuzzy
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "Installation des Plugins: %s"
+#~ msgstr[1] "Installation des Plugins: %s"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Activate installed plugin"
+#~ msgid_plural "Activate installed plugins"
+#~ msgstr[0] "Plugins installieren"
+#~ msgstr[1] "Plugins installieren"
+
+# @ Avada
+#, fuzzy
+#~ msgid "The following plugin was activated successfully:"
+#~ msgid_plural "The following plugins were activated successfully:"
+#~ msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert:"
+#~ msgstr[1] "Das folgende Plugin wurde erfolgreich aktiviert:"
+
+#~ msgid "Re-enter password"
+#~ msgstr "Passwort erneut eingeben"
+
+# @ Avada
+#~ msgid "Email"
+#~ msgstr "E-Mail"
+
+#~ msgid "Register An Account"
+#~ msgstr "Konto eröffnen"
+
+#~ msgid "Lost Password?"
+#~ msgstr "Passwort verloren?"
+
+#~ msgid "Login"
+#~ msgstr "Anmelden"
+
+#~ msgid "Username or Email Address"
+#~ msgstr "Benutzername oder Emailadresse"
+
+#~ msgid "I'm a Returning Customer"
+#~ msgstr "Ich habe bereits ein Konto"
+
+#~ msgid "Enter the following fields to change the password on your account"
+#~ msgstr "Füllen Sie folgende Felder aus um Ihr Passwort zu ändern"
+
+#~ msgid "Review &amp Payment"
+#~ msgstr "Übersicht %amp; Bezahlen"
+
+#~ msgid "Item"
+#~ msgstr "Artikel"
+
+# @ default
+# @ LayerSlider
+#~ msgid "Options"
+#~ msgstr "Einstellungen"
+
+# @ optionsframework
+#~ msgid "Gallery"
+#~ msgstr "Gallerie"
+
+# @ optionsframework
+#~ msgid "Previously Uploaded"
+#~ msgstr "Zuletzt hochgeladen"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Return to the dashboard"
+#~ msgstr "Zurück zur Übersicht"
+
+# @ default
+#, fuzzy
+#~ msgid "Select options"
+#~ msgstr "Theme Einstellungen"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Search results for &ldquo;"
+#~ msgstr "Suchergebnisse für:"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Error 404"
+#~ msgstr "404 Fehlerseite"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Related Products"
+#~ msgstr "Ähnliche Projekte"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Your comment is awaiting approval"
+#~ msgstr "Ihr Kommentar muss noch freigeschalten werden."
+
+# @ Avada
+#, fuzzy
+#~ msgid "Error 404 - page not found"
+#~ msgstr "404 - Seite nicht gefunden"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Post Number"
+#~ msgstr "Kommentar senden"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Clone Column"
+#~ msgstr "Ein Kommentar"
+
+# @ default
+#, fuzzy
+#~ msgid "Form Element Options"
+#~ msgstr "Theme Einstellungen"
+
+# @ optionsframework
+#, fuzzy
+#~ msgid "Edit Gallery"
+#~ msgstr "Gallerie"
+
+# @ optionsframework
+#, fuzzy
+#~ msgid "Add/Edit Gallery"
+#~ msgstr "Gallerie"
+
+# @ optionsframework
+#, fuzzy
+#~ msgid "Gallery Style"
+#~ msgstr "Gallerie"
+
+# @ optionsframework
+#, fuzzy
+#~ msgid "Gallery Columns"
+#~ msgstr "Gallerie"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Message Colors"
+#~ msgstr "Nachricht"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Page Content"
+#~ msgstr "Ein Kommentar"
+
+# @ Avada
+#, fuzzy
+#~ msgid "1 Columns"
+#~ msgstr "1 Kommentar"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Comment"
+#~ msgstr "Kommentare"
+
+# @ default
+#, fuzzy
+#~ msgid "Caption Text"
+#~ msgstr "Einstellungen zurücksetzen"
+
+# @ default
+#, fuzzy
+#~ msgid "Table Caption"
+#~ msgstr "Theme Einstellungen"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Website Link"
+#~ msgstr "Webseite"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Website Name"
+#~ msgstr "Webseite"
+
+# @ Avada
+#, fuzzy
+#~ msgid "View Product"
+#~ msgstr "Projekt ansehen"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Search Products"
+#~ msgstr "Suchergebnisse für:"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Search Orders"
+#~ msgstr "Durchsuchen Sie unsere Webseite"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Search Order statuses"
+#~ msgstr "Durchsuchen Sie unsere Webseite"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Search Coupons"
+#~ msgstr "Suche"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Search results for &quot;%1$s&quot;"
+#~ msgstr "Suchergebnisse für:"
+
+# @ Avada
+#, fuzzy
+#~ msgid "404 Not Found"
+#~ msgstr "404 - Seite nicht gefunden"
+
+# @ Avada
+#, fuzzy
+#~ msgid "New Message"
+#~ msgstr "Nachricht"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Your Message:"
+#~ msgstr "Nachricht"
+
+# @ Avada
+#, fuzzy
+#~ msgid "State:"
+#~ msgstr "Status"
+
+# @ optionsframework
+#, fuzzy
+#~ msgid "Add to Gallery"
+#~ msgstr "Gallerie"
+
+# @ Avada
+#, fuzzy
+#~ msgid "search results for:"
+#~ msgstr "Suchergebnisse für:"
+
+# @ Avada
+#, fuzzy
+#~ msgid "search result for:"
+#~ msgstr "Suchergebnisse für:"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Archives"
+#~ msgstr "Archiv für den Tag: %s"
+
+# @ Avada
+#, fuzzy
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view any comments."
+#~ msgstr ""
+#~ "Dieser Beitrag ist mit einem Passwort geschützt. Bitte geben Sie das "
+#~ "Password ein, um die Kommentare zu sehen."
+
+# @ Avada
+#, fuzzy
+#~ msgid "reply"
+#~ msgstr "- Antworten"
+
+# @ Avada
+#, fuzzy
+#~ msgid "&laquo; Older Comments"
+#~ msgstr "Keine Kommentare"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Newer Comments &raquo;"
+#~ msgstr "Keine Kommentare"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Leave a Reply"
+#~ msgstr "- Antworten"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Comments<br/>Off"
+#~ msgstr "Kommentare"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Comments Disabled"
+#~ msgstr "Die Kommentarfunktion wurde geschlossen."
+
+# @ Avada
+#, fuzzy
+#~ msgid "Interesting links"
+#~ msgstr "Installation des Plugins: %s"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Category Archives: %s"
+#~ msgstr "Archiv für das Jahr: %s"
+
+# @ Avada
+#, fuzzy
+#~ msgid "&larr; Older Comments"
+#~ msgstr "Ein Kommentar"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Newer Comments &rarr;"
+#~ msgstr "Keine Kommentare"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Leave a comment"
+#~ msgstr "Hinterlassen Sie einen Kommentar"
+
+# @ Avada
+#, fuzzy
+#~ msgid "One comment so far"
+#~ msgstr "Ein Kommentar"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Search Results for: %s"
+#~ msgstr "Suchergebnisse für:"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Tag Archives: %s"
+#~ msgstr "Archiv für den Tag: %s"
+
+# @ Avada
+#, fuzzy
+#~ msgid "%s Archives"
+#~ msgstr "Archiv für den Tag: %s"
+
+# @ Avada
+#, fuzzy
+#~ msgid "Author Archives: %s"
+#~ msgstr "Archiv für den Monat: %s"
+
+# @ Avada
+#, fuzzy
+#~ msgid "1 Reply"
+#~ msgstr "- Antworten"
+
+# @ Avada
+# @ wooslider
+#, fuzzy
+#~ msgid "&larr; Previous"
+#~ msgstr "Zurück"
